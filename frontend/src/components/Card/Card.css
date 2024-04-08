@@ -2,8 +2,10 @@
     background: center center/cover;
 }
 
+.card{
+    transition: 0.3s ease-in-out ;
+}
 .card:hover button{
-    transition:0.2s ease-in-out;
     transform: translate(-0.4rem);
 }
 

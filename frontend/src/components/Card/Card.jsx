@@ -9,7 +9,7 @@ const Card = ({movies}) => {
     localStorage.setItem('movies', JSON.stringify(movies));
   }
   return (
-    <div className='shadow-sm card bg-white gap-1 rounded-2xl m-9 p-[20px] justify-center items-center flex flex-col w-[250px] h-[480px] transition duration-200 transform hover:scale-[1.04]'>
+    <div className='shadow-sm card bg-white gap-1 rounded-2xl m-9 p-[20px] justify-center items-center flex flex-col w-[250px] h-[480px] transform hover:scale-[1.04]'>
         <div className='w-full text-[#4f4f75] text-[0.9rem] font-bold'><div className='text-left'>MOVIE DETAILS</div></div>
         <div className='relative m-2 background w-[180px] h-[260px] rounded-md'>
           <img className='fancyShadow' src={`https://image.tmdb.org/t/p/original/${movies.poster_path}`} alt="" />
