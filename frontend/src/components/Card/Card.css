@@ -1,0 +1,8 @@
+.background{
+    background: center center/cover;
+}
+
+.card:hover button{
+    transition:0.2s ease-in-out;
+    transform: translate(-0.4rem);
+}
