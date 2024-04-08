@@ -6,3 +6,21 @@
     transition:0.2s ease-in-out;
     transform: translate(-0.4rem);
 }
+
+.fancyShadow{
+    bottom: -10px;
+    filter: blur(15px);
+    height: 100%;
+    left: 5%;
+    position: absolute;
+    transition: .2s ease-in-out;
+    width:90%;
+    z-index: -2;
+}
+
+.front{
+    border-radius: 8px;
+    height: 260px;
+    object-fit: cover;
+    z-index:5
+}
