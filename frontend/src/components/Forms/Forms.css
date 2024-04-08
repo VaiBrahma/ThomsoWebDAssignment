@@ -64,7 +64,8 @@ input{
 }
 
 .btn:active{
-    transform: scale(1.03);
+    transform: scale(1.01);
+    background-color: #000000f4;;
 }
 .cross {
     cursor: pointer;

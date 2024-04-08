@@ -26,3 +26,7 @@
     object-fit: cover;
     z-index:5
 }
+
+button{
+    transition: 0.2s ease-in-out;
+}
