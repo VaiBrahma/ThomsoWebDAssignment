@@ -35,7 +35,7 @@ function Home() {
 
   return (
     <>
-      <div className="grid-container my-[5rem] mx-[2em]">
+      <div className="grid-container mt-20 gap-2">
         {movies.map((items) => (
           <Card movies={items} key={items.id} />
         ))}
